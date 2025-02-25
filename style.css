@@ -1,0 +1,73 @@
+body {
+    background-color: #121212; /* Cor de fundo escura */
+    color: #ffffff; /* Texto branco para contraste */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #1a1a1a; /* Tons mais escuros para cabeçalho e rodapé */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.sobre-texto {
+    font-family: 'Arial', sans-serif; /* Substitua por qualquer fonte desejada */
+    text-align: justify;
+}
+
+
+.projeto {
+    background: #222222; /* Fundo dos projetos um pouco mais claro */
+    padding: 15px;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.sobre-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sobre-container p {
+    flex: 1;
+}
+
+.imagem-sobre {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    flex-shrink: 0;
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1));
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1));
+}
+
+#sobre {
+    background: linear-gradient(135deg, #0a0a0a, #062417); /* Preto para verde escuro */
+    color: white; /* Para garantir boa leitura do texto */
+    padding: 20px;
+    border-radius: 10px;
+}
