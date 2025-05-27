@@ -68,6 +68,6 @@ section {
 #sobre {
     background: linear-gradient(135deg, #0a0a0a, #062417); /* Preto para verde escuro */
     color: white; /* Para garantir boa leitura do texto */
-    padding: 20px;
+    /*padding: 20px; */
     border-radius: 10px;
 }
